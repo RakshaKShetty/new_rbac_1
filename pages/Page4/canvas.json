@@ -1,0 +1,88 @@
+{
+  "unpublishedPage": {
+    "name": "Page4",
+    "slug": "page4",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 610,
+          "containerStyle": "none",
+          "snapRows": 60,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 65,
+          "minHeight": 610,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "CodeScanner1",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Code Scanner",
+              "iconSVG": "/static/media/icon.c4a2da6d32c0f212d031fca147e4f7cb.svg",
+              "searchTags": [
+                "barcode scanner",
+                "qr scanner",
+                "code detector",
+                "barcode reader"
+              ],
+              "topRow": 29,
+              "bottomRow": 33,
+              "parentRowSpace": 10,
+              "type": "CODE_SCANNER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 9.8125,
+              "leftColumn": 17,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "o3ay7rny8s",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 33,
+              "isDefaultClickDisabled": true,
+              "widgetId": "9k8lgiv5cu",
+              "isVisible": true,
+              "label": "Scan a QR/Barcode",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "placement": "CENTER"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page4",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "6357b13d2a62f76b41f77e68_635911122a62f76b41f7833d"
+}
